@@ -7,4 +7,6 @@ if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
 fi
 
-"$CLAUDE_PROJECT_DIR/agency-agents/scripts/install.sh" --tool claude-code --no-interactive
+"$CLAUDE_PROJECT_DIR/agency-agents/scripts/install.sh" --tool claude-code \
+  --agent social-media-strategist,tiktok-strategist,content-creator \
+  --no-interactive
