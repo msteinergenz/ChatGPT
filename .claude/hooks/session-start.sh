@@ -8,5 +8,5 @@ if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
 fi
 
 "$CLAUDE_PROJECT_DIR/agency-agents/scripts/install.sh" --tool claude-code \
-  --agent social-media-strategist,tiktok-strategist,content-creator,instagram-curator \
+  --agent social-media-strategist,tiktok-strategist,content-creator,instagram-curator,trend-researcher,business-strategist,product-manager,investment-researcher,master-plan-architect,growth-hacker,frontend-developer,rapid-prototyper,backend-architect,software-architect,senior-developer,cms-developer,wordpress-performance-engineer,wordpress-shopping-cart-engineer,ui-designer,ux-architect \
   --no-interactive
